@@ -6,7 +6,7 @@ class Disclaimer extends Component {
   render() {
     return (
       <div id="disclaimer" className="disclaimer">
-
+        <h1></h1>
       </div>
     );
   }

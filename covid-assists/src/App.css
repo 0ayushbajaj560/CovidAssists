@@ -32,6 +32,9 @@
   background-color:smoke;
 }
 
+#covid-table th:hover {
+  box-shadow: 2px 2px lightgrey;
+}
 #Hospitalized {
   background-color: yellow;
 }
@@ -49,14 +52,32 @@
   border: none;
 }
 
+#totalRecovered:hover{
+  background-color: lightgreen;
+  border: none;
+  box-shadow: 5px 5px lightgrey;
+}
+
 #totalHospitalized {
   background-color: yellow;
   border: none;
 }
 
+#totalHospitalized:hover{
+  background-color: yellow;
+  border: none;
+  box-shadow: 5px 5px lightgrey;
+}
+
 #totalDeaths {
   background-color: red;
   border: none;
+}
+
+#totalDeaths:hover{
+  background-color: red;
+  border: none;
+  box-shadow: 5px 5px lightgrey;
 }
 
 #spinner {
@@ -67,4 +88,86 @@
 #spin {
   margin-left: 50%;
   
+}
+
+h2 {
+  text-align: center;
+}
+
+h6 {
+  color: grey;
+  padding: 5px;
+}
+
+#search-options {
+  padding: 5px;
+}
+
+#search-options span {
+  float: left;
+}
+#vaccine-selector {
+  margin-left: 1%;
+}
+
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+
+#pin-selected-column {
+  padding: 0px;
+  margin: 0px;
+}
+
+
+#input-pin,#input-date{
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  margin-left: 2%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#search-vaccine-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  width: 50%;
+  cursor: pointer;
+}
+#pin-error {
+  display: none;
+  color:red;
+}
+#vaccines-page {
+  height: 650px;
+}
+
+#covid-table th:hover {
+  box-shadow: 2px 2px lightgrey;
+}
+
+@media screen and (max-width: 600px) {
+  #pin-selected {
+    width: 100%;
+  }
+  #pin-selectec label {
+    margin-left: 20%;
+  }
+  input {
+    width: 75%;
+    margin-left: 12%;
+  }
+  #input-pin, #input-date {
+    width: 100%;
+  }
 }
