@@ -1,0 +1,60 @@
+#nav-item {
+  color: whitesmoke;
+}
+
+#footer {
+  background-color: #007bff!important;
+  height: 60px;
+  text-align: center;
+}
+
+#footer-text {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  font-weight: bold;
+  color: white;
+}
+
+#dashBoard {
+  height: 650px;
+  background-color: whitesmoke;
+}
+
+#covid-table {
+  padding:20px;
+  background-color: white;
+}
+
+#table-container {
+  height: 100%;
+  padding:20px;
+  background-color:smoke;
+}
+
+#Hospitalized {
+  background-color: yellow;
+}
+
+#Recovered {
+  background-color: lightgreen;
+}
+
+#Deceased {
+  background-color: red;
+}
+
+#totalRecovered {
+  background-color: lightgreen;
+  border: none;
+}
+
+#totalHospitalized {
+  background-color: yellow;
+  border: none;
+}
+
+#totalDeaths {
+  background-color: red;
+  border: none;
+}
