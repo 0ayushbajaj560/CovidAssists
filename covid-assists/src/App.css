@@ -58,3 +58,13 @@
   background-color: red;
   border: none;
 }
+
+#spinner {
+  height: 650px;
+  align-items: center;
+}
+
+#spin {
+  margin-left: 50%;
+  
+}
