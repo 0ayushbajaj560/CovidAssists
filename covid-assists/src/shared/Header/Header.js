@@ -10,7 +10,7 @@ class Header extends Component {
     return (
       <div id="navBar" className="navBar">
         <Navbar bg="primary" expand="lg">
-          <Navbar.Brand href="#home">Covid Assists</Navbar.Brand>
+          <Navbar.Brand href="/">Covid Assists</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto"></Nav>
