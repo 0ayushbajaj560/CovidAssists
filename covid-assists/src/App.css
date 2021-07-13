@@ -1,3 +1,11 @@
+.App-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  pointer-events: none;
+}
+
 #nav-item {
   color: whitesmoke;
 }
@@ -17,7 +25,7 @@
 }
 
 #dashBoard {
-  height: 650px;
+  min-height: 650px;
   background-color: whitesmoke;
 }
 
@@ -110,14 +118,18 @@ h6 {
   margin-left: 1%;
 }
 
+#vaccine-table th:hover {
+  box-shadow: 2px 2px lightgrey;
+}
+
 hr.solid {
   border-top: 3px solid #bbb;
 }
 
-#pin-selected-column {
+/* #pin-selected-column {
   padding: 0px;
   margin: 0px;
-}
+} */
 
 
 #input-pin,#input-date{
@@ -144,20 +156,111 @@ hr.solid {
   width: 50%;
   cursor: pointer;
 }
+
 #pin-error {
   display: none;
   color:red;
 }
+
+#district-error {
+  display: none;
+  color:red;
+}
+
 #vaccines-page {
-  height: 650px;
+  height: 100%;
+}
+
+#vaccines-page-children {
+  height: 600px;
+}
+
+#vaccines-table {
+  height: 300px;
 }
 
 #covid-table th:hover {
   box-shadow: 2px 2px lightgrey;
 }
 
+#state-selector , #district-selector{
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  margin-left: 2%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#vaccines-table {
+  height: 280px;
+}
+
+.wrapper { 
+  overflow:hidden;
+}
+
+.wrapper div {
+   min-height: 300px;
+   padding: 10px;
+}
+#one {
+  background-color: white;
+  float:left; 
+  margin:10px;
+  width:50%;
+}
+#four {
+  float:left; 
+  margin:10px;
+  width:25%;
+}
+#three {
+  background-color: white;
+  float:left; 
+  margin:10px;
+  width:100%;
+}
+#two { 
+  background-color: white;
+  overflow:hidden;
+  margin:10px;
+}
+#five { 
+  background-color: white;
+  overflow:hidden;
+  margin:10px;
+}
+
+#website , a {
+  color:gray;
+}
+
+#aboutUs-page {
+  min-height: 600px;
+}
+
+#aboutUs-page h2{
+  text-align: left;
+}
+
+#aboutUs-page h4{
+  color: grey;
+  text-align: left;
+}
+
+strong {
+  color: Red;
+}
+
 @media screen and (max-width: 600px) {
-  #pin-selected {
+  #vaccines-page-children {
+    height: 100%;
+  }
+
+  #pin-selected , #district-selected{
     width: 100%;
   }
   #pin-selectec label {
@@ -167,7 +270,20 @@ hr.solid {
     width: 75%;
     margin-left: 12%;
   }
-  #input-pin, #input-date {
+
+  #input-pin, #input-date ,#state-selector{
     width: 100%;
+  }
+  
+  #vaccines-table {
+    height: 480px;
+  }
+
+  #one ,#three, #four{ 
+    float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+    border-bottom:2px solid #000;    
   }
 }

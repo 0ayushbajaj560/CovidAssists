@@ -30,11 +30,7 @@ class CovidHistory extends Component {
       currentPage: Number(event.target.id),
     });
   }
-
-  showAlert() {
-    alert("hi");
-  }
-
+  
   showFirstPage() {
     this.setState({
       currentPage: 1,
