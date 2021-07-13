@@ -1,0 +1,289 @@
+.App-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  pointer-events: none;
+}
+
+#nav-item {
+  color: whitesmoke;
+}
+
+#footer {
+  background-color: #007bff!important;
+  height: 60px;
+  text-align: center;
+}
+
+#footer-text {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  font-weight: bold;
+  color: white;
+}
+
+#dashBoard {
+  min-height: 650px;
+  background-color: whitesmoke;
+}
+
+#covid-table {
+  padding:20px;
+  background-color: white;
+}
+
+#table-container {
+  height: 100%;
+  padding:20px;
+  background-color:smoke;
+}
+
+#covid-table th:hover {
+  box-shadow: 2px 2px lightgrey;
+}
+#Hospitalized {
+  background-color: yellow;
+}
+
+#Recovered {
+  background-color: lightgreen;
+}
+
+#Deceased {
+  background-color: red;
+}
+
+#totalRecovered {
+  background-color: lightgreen;
+  border: none;
+}
+
+#totalRecovered:hover{
+  background-color: lightgreen;
+  border: none;
+  box-shadow: 5px 5px lightgrey;
+}
+
+#totalHospitalized {
+  background-color: yellow;
+  border: none;
+}
+
+#totalHospitalized:hover{
+  background-color: yellow;
+  border: none;
+  box-shadow: 5px 5px lightgrey;
+}
+
+#totalDeaths {
+  background-color: red;
+  border: none;
+}
+
+#totalDeaths:hover{
+  background-color: red;
+  border: none;
+  box-shadow: 5px 5px lightgrey;
+}
+
+#spinner {
+  height: 650px;
+  align-items: center;
+}
+
+#spin {
+  margin-left: 50%;
+  
+}
+
+h2 {
+  text-align: center;
+}
+
+h6 {
+  color: grey;
+  padding: 5px;
+}
+
+#search-options {
+  padding: 5px;
+}
+
+#search-options span {
+  float: left;
+}
+#vaccine-selector {
+  margin-left: 1%;
+}
+
+#vaccine-table th:hover {
+  box-shadow: 2px 2px lightgrey;
+}
+
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+
+/* #pin-selected-column {
+  padding: 0px;
+  margin: 0px;
+} */
+
+
+#input-pin,#input-date{
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  margin-left: 2%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#search-vaccine-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  width: 50%;
+  cursor: pointer;
+}
+
+#pin-error {
+  display: none;
+  color:red;
+}
+
+#district-error {
+  display: none;
+  color:red;
+}
+
+#vaccines-page {
+  height: 100%;
+}
+
+#vaccines-page-children {
+  height: 600px;
+}
+
+#vaccines-table {
+  height: 300px;
+}
+
+#covid-table th:hover {
+  box-shadow: 2px 2px lightgrey;
+}
+
+#state-selector , #district-selector{
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  margin-left: 2%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#vaccines-table {
+  height: 280px;
+}
+
+.wrapper { 
+  overflow:hidden;
+}
+
+.wrapper div {
+   min-height: 300px;
+   padding: 10px;
+}
+#one {
+  background-color: white;
+  float:left; 
+  margin:10px;
+  width:50%;
+}
+#four {
+  float:left; 
+  margin:10px;
+  width:25%;
+}
+#three {
+  background-color: white;
+  float:left; 
+  margin:10px;
+  width:100%;
+}
+#two { 
+  background-color: white;
+  overflow:hidden;
+  margin:10px;
+}
+#five { 
+  background-color: white;
+  overflow:hidden;
+  margin:10px;
+}
+
+#website , a {
+  color:gray;
+}
+
+#aboutUs-page {
+  min-height: 600px;
+}
+
+#aboutUs-page h2{
+  text-align: left;
+}
+
+#aboutUs-page h4{
+  color: grey;
+  text-align: left;
+}
+
+strong {
+  color: Red;
+}
+
+@media screen and (max-width: 600px) {
+  #vaccines-page-children {
+    height: 100%;
+  }
+
+  #pin-selected , #district-selected{
+    width: 100%;
+  }
+  #pin-selectec label {
+    margin-left: 20%;
+  }
+  input {
+    width: 75%;
+    margin-left: 12%;
+  }
+
+  #input-pin, #input-date ,#state-selector{
+    width: 100%;
+  }
+  
+  #vaccines-table {
+    height: 480px;
+  }
+
+  #one ,#three, #four{ 
+    float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+    border-bottom:2px solid #000;    
+  }
+}

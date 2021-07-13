@@ -7,7 +7,7 @@ class AboutUs extends Component {
       <div id="aboutUs-page">
         <div className="wrapper">
           <div id="four">
-            <img src={logo} className="App-logo" alt="Photo" />
+            <img src={logo} className="App-logo" alt="UserPic" />
           </div>
           <div id="five">
             <h2> Ayush Bajaj</h2>
